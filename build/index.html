@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="//d3js.org/d3.v3.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/cal-heatmap/3.3.10/cal-heatmap.min.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/cal-heatmap/3.3.10/cal-heatmap.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>iDexTest</title>
+    
+
+</head>
+<body>
+    <section class="main">
+
+        <div class="main__left-block">
+
+        </div>
+
+        <div class="main__right-block">
+            <div class="container">
+                <div class="head-block">
+                    <h1 class="head-block__title">Рабочий стол руководителя</h1>
+                </div>
+
+                <div class="buttons-block">
+                    <button class="button__main button__main--active"><a href="#">Dashboard</a></button>
+                    <button class="button__main"><a href="#">Team line up</a></button> 
+                </div>
+
+                <div class="main-lead">
+
+                    <h3 class="main-lead__title">График отпусков</h3>
+                    <div class="main-lead__info">
+                        <button class="main-lead__button"><img src="img/ic-left.svg" alt="left"></button>
+                        <h3 class="main-lead__year">2019</h3>
+                        <button class="main-lead__button"><img src="img/ic-right.svg" alt="right"></button>
+                    </div>
+
+                </div>
+
+                <div class="main-table">
+                    <table>
+                        <tr>
+                            <th>Фамилия, Имя</th>
+                            <th>дней</th>
+                            <th>
+                                <div class="main-table__mounth">
+                                    <span>Янв</span> 
+                                    <span>Фев</span>
+                                    <span>Мар</span>
+                                    <span>Апр</span>
+                                    <span>Май</span>
+                                    <span>Июн</span>
+                                    <span>Июл</span>
+                                    <span>Авг</span>
+                                    <span>Сен</span>
+                                    <span>Окт</span>
+                                    <span>Ноя</span>
+                                    <span>Дек</span>
+                                </div>
+                            </th>
+                        </tr>
+                        <tr class="main-table__content">
+                            <td class="main-table__name"><img src="img/photo.png" alt="photo">Иван Иванов</td>
+                            <td>14/28</td>
+                            <td>
+                                <div id="domainDynamicDimension-one"></div>
+                            </td>
+                        </tr>
+                        <tr class="main-table__content">
+                            <td class="main-table__name"><img src="img/photo-2.png" alt="photo">Екатерина Иванова</td>
+                            <td>14/28</td>
+                            <td>
+                            <div id="domainDynamicDimension-two"></div>
+                            </td>
+                        </tr>
+                        <tr class="main-table__content">
+                            <td class="main-table__name"><img src="img/photo.png" alt="photo">Иван Иванов</td>
+                            <td>14/28</td>
+                            <td>
+                            <div id="domainDynamicDimension-three"></div>
+                            </td>
+                        </tr>
+                        <tr class="main-table__content">
+                            <td class="main-table__name"><img src="img/photo.png" alt="photo">Иван Иванов</td>
+                            <td>14/28</td>
+                            <td>
+                            <div id="domainDynamicDimension-four"></div>
+                            </td>
+                        </tr>
+                        <tr class="main-table__content">
+                            <td class="main-table__name"><img src="img/photo.png" alt="photo">Иван Иванов</td>
+                            <td>14/28</td>
+                            <td>
+                                <div id="domainDynamicDimension-five"></div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<script src="js/calendar.js"></script>
+</body>
+</html>
