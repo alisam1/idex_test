@@ -13,7 +13,7 @@ cal.init({
     nextSelector: "#domainDynamicDimension-next",
     previousSelector: "#domainDynamicDimension-previous",
     itemNamespace: "domainDynamicDimension",
-    tooltip: true,
+    tooltip: false,
     cellPadding: 2,
 });
 
